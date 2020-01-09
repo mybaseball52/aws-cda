@@ -10,7 +10,7 @@ AWS.config.update({ region: 'us-east-1', })
 const ec2 = new AWS.EC2();
 
 function listInstances () {
-  // TODO: List instances using ec2.describeInstances()
+  //List instances using ec2.describeInstances()
   return new Promise((resolve, reject) => {
     ec2.describeInstances({}, (err, data)=>{
       if(err) reject(err);
