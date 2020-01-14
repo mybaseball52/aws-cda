@@ -11,7 +11,7 @@ createDeployment(apiId, 'prod')
 .then(data => console.log(data))
 
 function createDeployment (apiId, stageName) {
-  const params = {
+  const params = { 
     restApiId: apiId,
     stageName: stageName
   }
