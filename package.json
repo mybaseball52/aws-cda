@@ -36,7 +36,7 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.2.0",
     "request": "^2.81.0",
-    "sequelize": "^4.4.2",
+    "sequelize": "^5.15.1",
     "serverless": "^1.60.5",
     "superagent": "^3.5.2",
     "svg-inline-loader": "^0.8.0",
